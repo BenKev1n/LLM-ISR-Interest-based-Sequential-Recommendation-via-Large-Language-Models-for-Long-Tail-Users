@@ -16,6 +16,10 @@ To ease the configuration of the environment, I list versions of my hardware and
 
 You can conda install the `environment.yml` or pip install the `requirements.txt` to configure the environment.
 
+## Dataset Files
+
+We upload all preprocessed files to this [link](https://drive.google.com/drive/folders/1OVHws7jHsq5qNZuNTFZFlFkyiFO8XTU7?usp=drive_link).
+
 ## Run and test
 
 1. You can reproduce all LLM-ESR experiments by running the bash as follows:

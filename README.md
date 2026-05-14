@@ -14,4 +14,20 @@ To ease the configuration of the environment, I list versions of my hardware and
   - Python: 3.9.5
   - Pytorch: 2.6.0+cu124
 
-You can pip install the `requirements.txt` to configure the environment.
+You can conda install the `environment.yml` or pip install the `requirements.txt` to configure the environment.
+
+## Run and test
+
+1. You can reproduce all LLM-ESR experiments by running the bash as follows:
+
+```
+bash experiments/yelp.bash
+bash experiments/fashion.bash
+bash experiments/beauty.bash
+```
+
+2. The log and results will be saved in the folder `log/`. The checkpoint will be saved in the folder `saved/`.
+
+## Thanks
+
+The code refers to the repo [LLM-ESR](https://github.com/liuqidong07/LLM-ESR/tree/master).
